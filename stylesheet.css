@@ -79,11 +79,16 @@ html, body {
     text-align: center;
 }
 
-#spin-button {
-    border-radius: 5px;
+.spin-button {
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
-    font-size: 48px;
+    font-size: 24px;
     font-family: 'Unica One', cursive;
+    background-color: powderblue;
+    border-radius: 5px;
+}
+
+.clicked {
+    
+    background-color: aquamarine;
 }

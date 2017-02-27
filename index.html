@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <title>Home</title>
     <link rel="stylesheet" type="text/css" href="/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
@@ -28,17 +29,17 @@
                 <h2 class="game-info-text">Roll</h2>
             </div>
             <div class="mid-row-info">
-                <p class="mid-row-numbers" contenteditable="true">100</p>
+                <p class="mid-row-numbers" contenteditable="true" id="bet-amount">100</p>
                 <p class="game-info-text">Bet</p>
             </div>
             <div class="mid-row-info">
-                <p class="mid-row-numbers">2000</p>
+                <p class="mid-row-numbers" id="total-amount">2000</p>
                 <p class="game-info-text" contenteditable="true">Total</p>
             </div>
             
         </div>
          
-        <h3 id="spin-button"> Spin! </h3>
+        <button class="spin-button"> Spin! </button>
     
     </div>
     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
