@@ -60,7 +60,7 @@ html, body {
     font-size: 24px;
 }
 
-.mid-row-numbers {
+.mid-row-numbers, #won-amount {
     overflow: hidden;
     width: 100%;
     height: 48px;
@@ -92,3 +92,4 @@ html, body {
     
     background-color: aquamarine;
 }
+
