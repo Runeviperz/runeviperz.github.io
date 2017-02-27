@@ -54,17 +54,68 @@ html, body {
     width: 90%;
     //font-family: 'Unica One', cursive;
     font-family: 'Muli', sans-serif;
+
 }
 
-h1 {
-    
+#main-title {
     font-size: 80px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.game-info {
+    
+    margin: 80px;
+}
+
+#roll-id {
+    
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.game-info-text{
+    
+    font-size: 24px;
+}
+
+.mid-row-numbers, #won-amount {
+    overflow: hidden;
+    width: 100%;
+    height: 48px;
+    border: 0;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 36px;
+    margin: auto;
+}
+
+.mid-row-info {
+    width: 45%;
+    font-size: 24px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.spin-button {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-family: 'Unica One', cursive;
+    background-color: powderblue;
+    border-radius: 5px;
+}
+
+.clicked {
+    
+    background-color: aquamarine;
 }
 
 a, a:visited {
     color: black;
     text-decoration: none;
 }
-
 
 

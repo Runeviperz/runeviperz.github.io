@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/projects/rngboys.css">
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <a href="/index.html"><li class="header-corner"> Jacky </li></a>
+            <a href="/projects/rngboys.html"><li>projects</li></a>
+            <li>resume</li>
+            <li>about</li>
+        </ul>   
+    </div>
+    
+    <div class="main">
+    
+        <h1 id="main-title"> R N G B O Y S </h1>
+        
+        <div class="game-info">
+            <div class="top-row-info">
+                <h2 id="roll-id">100</h2>
+                <h2 class="game-info-text">Roll</h2>
+            </div>
+            <div class="mid-row-info">
+                <p class="mid-row-numbers" contenteditable="true" id="bet-amount">100</p>
+                <p class="game-info-text">Bet</p>
+            </div>
+            <div class="mid-row-info">
+                <p class="mid-row-numbers" id="total-amount">2000</p>
+                <p class="game-info-text">Total</p>
+            </div>
+            <div>
+                <p id="won-amount">0</p>
+                <p class="game-info-text">Winning Amount</p>
+            </div>
+            
+        </div>
+         
+        <button class="spin-button"> Spin! </button>
+    
+    </div>
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src="/projects/rngboys.js"></script>
+</body>
+</html>
