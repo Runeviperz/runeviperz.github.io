@@ -24,7 +24,6 @@ function updateTotal(winnings) {
 
 function beginning() {
   
-    $(".main").hide();
     $(".main").fadeIn(1000);
     $(".spin-button").on("click", function() {
         
@@ -38,7 +37,5 @@ function beginning() {
     });
 }
 
-
-
-
+$(".main").hide();
 $(document).ready(beginning);

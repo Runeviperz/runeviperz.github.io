@@ -27,18 +27,18 @@ html, body {
 /* HEADER CSS */
 
 .header-container {
-    width: 45%;
+    width: auto;
     display: inline-block
 }
 
 .header {
     margin: 0px;
     border-bottom: 1px solid black;
-    width: 100%;
     text-align: center;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     background-color:aliceblue;
     padding: 40px;
+    letter-spacing: 2px;
 }
 
 .header li, #header-corner {
@@ -49,10 +49,16 @@ html, body {
 #header-corner {
     font-size: 64px;
     text-align: left;
+    float: left;
 }
 
 .header li {
     display: inline;
+}
+
+a, a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 /* MAIN */
@@ -120,13 +126,9 @@ html, body {
 }
 
 .clicked {
-    
     background-color: aquamarine;
 }
 
-a, a:visited {
-    color: black;
-    text-decoration: none;
-}
+
 
 

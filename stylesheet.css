@@ -26,34 +26,33 @@ html, body {
 
 /* HEADER CSS */
 
-.header-container {
-    width: 45%;
-    display: inline-block
-}
-
 .header {
-    margin: 0px;
     border-bottom: 1px solid black;
-    width: 100%;
-    text-align: center;
-    font-family: 'Vollkorn', serif;
     background-color:aliceblue;
-    padding: 40px;
+    padding: 64px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
+    display: inline-block;
 }
 
-.header li, #header-corner {
-    padding: 0px 40px;
+.header li {
+    float: right;
     font-size: 32px;
+    display: inline-block;
+    margin: 0px 40px;
 }
 
 #header-corner {
     font-size: 64px;
-    text-align: left;
+    float: left;
 }
 
-.header li {
-    display: inline;
+a, a:visited {
+    color: black;
+    text-decoration: none;
 }
+
 
 /* MAIN */
 
@@ -71,10 +70,6 @@ h1 {
     font-size: 80px;
 }
 
-a, a:visited {
-    color: black;
-    text-decoration: none;
-}
 
 
 

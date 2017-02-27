@@ -1,11 +1,10 @@
 function beginning() {
   
-    $(".main").hide();
     $(".main").fadeIn(1000);
 
 }
 
 
 
-
+$(".main").hide();
 $(document).ready(beginning);
