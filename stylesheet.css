@@ -1,3 +1,9 @@
+/*
+* {
+    border: 1px solid black;
+}
+*/
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -26,9 +32,6 @@ html, body {
 
 /* HEADER CSS */
 
-.header {
-    border-bottom: 1px solid black;
-    background-color:aliceblue;
     padding: 64px 0px;
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 2px;
@@ -56,6 +59,15 @@ a, a:visited {
 
 /* MAIN */
 
+    padding: 0;
+}
+
+.header li {
+    padding: 20px 40px;
+    font-size: 32px;
+    display: inline;
+}
+
 .main {
     padding-top: 3%; 
     text-align: center;
@@ -67,6 +79,7 @@ a, a:visited {
 }
 
 h1 {
+    
     font-size: 80px;
 }
 

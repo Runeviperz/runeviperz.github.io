@@ -1,3 +1,9 @@
+/*
+* {
+    border: 1px solid black;
+}
+*/
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -50,9 +56,12 @@ html, body {
     font-size: 64px;
     text-align: left;
     float: left;
+    padding: 0;
 }
 
 .header li {
+    padding: 20px 40px;
+    font-size: 32px;
     display: inline;
 }
 
