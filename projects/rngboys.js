@@ -23,8 +23,7 @@ function updateTotal(winnings) {
 }
 
 function beginning() {
-  
-    $(".main").fadeIn(1000);
+
     $(".spin-button").on("click", function() {
         
         if (parseInt($("#bet-amount").text(), 10) <= parseInt($("#total-amount").text(), 10)
@@ -37,5 +36,4 @@ function beginning() {
     });
 }
 
-$(".main").hide();
 $(document).ready(beginning);
